@@ -1,0 +1,386 @@
+*{
+    margin: 0%;
+    padding-left:10;
+    box-sizing: border-box;
+}
+body{
+    line-height: 1.6;
+    background-image:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{    
+    text-decoration: none;
+    color: #141111;
+    font-size: 1.3rem;
+    margin-right: 25px;
+    font-size: 1.5rem;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+
+}
+.menu{
+    background-color: #d1a9b5f6;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    margin-left: 30px;
+
+}
+nav ul li a {
+    color:#fcfbfb;
+    text-decoration:none;
+    padding: 5px 10px;
+}
+    nav ul li a:hover{
+        background: #e69cb2f6;
+        border-radius: 15px;
+    }
+@media screen and (max-width:599px){
+    .menu{
+        visibility: hidden;
+    }
+}
+/*Introdução*/
+.introducao {
+    font-size: 3em;
+    line-height: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+/*Sobre*/
+.sobre {
+    border-top: 2px solid #2c6fff00;
+    border-bottom: 2px solid #ec6091;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobre-info {
+    flex: 2 1 300px;
+    margin: 0 10px;
+}
+
+.sobre-info h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+.sobre-info p {
+    font: size 1.25em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+    color: #7c7c7c
+}
+
+.sobre-img {
+    flex: 1 1 160px;
+    margin: 0 10px;
+}
+
+
+/*Footer*/
+section.form {
+    background-color: #fcf3f8f6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(251, 247, 249, 0.944);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+}
+    .form-container {
+        display: flex;
+        width: 40vw;
+        max-width: 1500px;
+        background-color: #ffb6c1;
+        border-radius: 15px;
+        overflow: hidden;
+        justify-content: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    
+    .img {
+        flex: 1;
+        justify-content: center;
+    }
+    
+    .img {
+        width: 50%;
+        height: 100%;
+        justify-content: left;
+        object-fit: cover;
+    }
+form label {
+    font-size: 16px;
+    color: #ffb6c1;
+    display: block;
+    margin-bottom: 8px
+}    
+.campo {
+    margin-bottom: 0.2em;
+    color: rgb(15, 18, 18);
+    display: block;
+    }
+    fieldset.grupo.campo {
+    float: left;
+    margin-right: 30px;
+    }
+
+    .campo textarea {
+    padding: 0.2em;
+    border: 1px solid rgba(1, 6, 18, 0.859);
+    box-shadow: 2px 2px 2px rgba(14, 13, 13, 0.907);
+    display: flex;
+    }
+    .campo select option {
+    padding-right: 10px;
+    }
+    .experiencia {
+    row-gap: 6;
+    width: 500px;
+    height: 60px;
+    }
+    .campo input:focus{
+    background-color: rgb(245, 233, 241)
+}
+.button {
+    font-size: 30px;
+    background-color: rgb(251, 250, 250);
+    border: 0;
+    margin-bottom: 2px;
+    color: #ffb6c1 (255, 255, 255);
+    padding: 2px;
+    box-shadow: 2px 2px, 2px rgb(0, 0, 0, 0.2);
+    text-shadow: 1px 1px, 1px rgb(0, 0, 0, 0.5);
+    position: absolute;
+    top: 550px;
+    left: 600px;
+    margin-right: 50%;
+    }
+.servicos{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:  center;
+    gap:20px;
+    padding: 40px 20px;
+    background-color: #d1a9b5f6;
+}
+
+.card { 
+    background-color: #fff;
+    padding: 20px;
+    width: 250px;
+    border-radius:8px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    font-size: 1.1em;
+}
+.card:hover {
+    box-shadow:  0px 8px 16px rgba(0,0,0,0.2);
+}
+/*rodapé*/
+footer{
+    background-color: #d1a9b5f6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p{
+    margin: 5px 0;
+}
+/*Produtos*/
+.produtos {
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.produtos h1 {
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.produtos-item {
+    flex: 1 1 175px;
+    margin: 10px;
+}
+
+.produtos-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    background: #f7f7f7;
+    padding: 60px 20px;
+}
+
+.purple {
+    border-top: 8px solid #f5b1c3;
+}
+
+.pink {
+    border-top: 8px solid #f5b1c3;
+}
+
+/* Preço */
+.preco {
+    background: #f7f7f7;
+    padding: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.preco-item {
+    flex: 1 1 260px;
+    border: 4px solid white;
+    padding: 20px;
+    margin: 10px;
+}
+
+.preco-item h2 {
+    font-size: 3em;
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.preco-item span {
+    max-width: 300px;
+    margin: 20px auto;
+    display: block;
+    font-size: 3em;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0 5px 0;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.preco-item sup {
+    font-size: 1.5rem;
+}
+
+.preco-item ul {
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #7c7c7c;
+}
+
+.preco-item li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.preco-item li::after {
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #ffb6c1;
+    border-radius: 50%;
+}
+
+    section.form {
+        background-color: #ffb6c1;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(251, 247, 249, 0.944);
+        width: 100%;
+        max-width: 500px;
+        margin: 20px;
+    }
+        .form-container {
+            display: flex;
+            width: 40vw;
+            max-width: 1500px;
+            background-color: #ffb6c1;
+            border-radius: 15px;
+            overflow: hidden;
+            justify-content: center;
+            box-shadow: 0 4px 8px rgba(238, 170, 202, 0.919);
+        }
+        
+        .img {
+            flex: 1;
+            justify-content: left;
+        }
+        
+        .img {
+            width: 50%;
+            height: 100%;
+            justify-content: left;
+            object-fit: cover;
+        }
+    form label {
+        font-size: 16px;
+        color: #000000;
+        display: block;
+        margin-bottom: 8px
+    }    
+    .campo {
+        margin-bottom: 0.2em;
+        color: #ffb6c1;
+        display: block;
+        }
+        fieldset.grupo.campo {
+        float: left;
+        margin-right: 30px;
+        }
+
+        .campo textarea {
+        padding: 0.2em;
+        border: 1px solid rgba(1, 6, 18, 0.859);
+        box-shadow: 2px 2px 2px rgba(14, 13, 13, 0.907);
+        display: flex;
+        }
+        .campo select option {
+        padding-right: 10px;
+        }
+        .experiencia {
+        row-gap: 6;
+        width: 500px;
+        height: 60px;
+        }
+        .campo input:focus{
+        background-color: rgb(245, 233, 241)
+    }
+    .button {
+        font-size: 30px;
+        background-color: #ffb6c1;
+        border: 0;
+        margin-bottom: 2px;
+        color: #ffb6c1 (255, 255, 255);
+        padding: 2px;
+        box-shadow:#ffb6c1;
+        text-shadow: 1px 1px, 1px rgb(0, 0, 0, 0.5);
+        position: absolute;
+        top: 550px;
+        left: 600px;
+        margin-right: 50%;
+        }
